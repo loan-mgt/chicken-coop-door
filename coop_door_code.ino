@@ -1,19 +1,24 @@
-// connect motor controller pins to Arduino digital pins
-// motor one
+
+
 #include <Wire.h>
 #include <ds3231.h>
 
+// motor one
 int enA = 10;
 int in1 = 9;
 int in2 = 8;
-// motor two
-int enB = 5;
-int in3 = 7;
-int in4 = 6;
+// set speed to 200 out of possible range 0~255
 int speedd = 100;
+// duration the motor run, depend on the height of the door
 int timee = 4000; 
+
+// light sensor pin
 const int LDR = A0; 
+
+// door position 0 close 1 open
 int door_satus = 0;
+
+// light sensor value
 int input_val;
 
 
@@ -31,13 +36,13 @@ void setup()
 }
 void openn()
 {
-  // this function will run the motors in both directions at a fixed speed
+  // this function will run the motors at a fixed speed
   // turn on motor A
   digitalWrite(in1, LOW);
   digitalWrite(in2, HIGH);
-  // set speed to 200 out of possible range 0~255
+  // apply speed
   analogWrite(enA, speedd);
- 
+  // waiting set time (4s)
   delay(timee);
 
 
@@ -50,13 +55,13 @@ void openn()
 }
 void closee()
 {
-  // this function will run the motors in both directions at a fixed speed
+  // this function will run the motors s at a fixed speed
   // turn on motor A
   digitalWrite(in1, HIGH);
   digitalWrite(in2, LOW);
-  // set speed to 200 out of possible range 0~255
+  // apply speed with reduction because de motor goes faster on descend
   analogWrite(enA, speedd-30);
- 
+  // waiting set time (4s)
   delay(timee);
 
 
@@ -70,30 +75,31 @@ void closee()
 }
 void loop()
 {
-  DS3231_get(&t);
-  input_val = analogRead(LDR);
+  DS3231_get(&t);// read clock
+  input_val = analogRead(LDR);// read light sensor
   Serial.print(door_satus);
   Serial.print("  /  ");
   Serial.print(t.hour);
   Serial.print("  /  ");
   Serial.println(input_val);
-  if (door_satus == 0)
+  
+  if (door_satus == 0) // if door is close
   {
-    if ( input_val > 20){
-      if (t.hour >= 9){
+    if ( input_val > 20){ // if there is some light
+      if (t.hour >= 9){ //if it is past 9 o'clock
  
-        if (t.hour < 20){ //20
-      openn();
-      digitalWrite(LED_BUILTIN, HIGH);
-      door_satus = 1;}}
+        if (t.hour < 20){ // if it is before 20 o'clock
+      openn(); // then open the door
+      digitalWrite(LED_BUILTIN, HIGH); //set the arduino led to ON for debuging
+      door_satus = 1;}} // save that the door is open
       
     }
   }
   else{
-    if ( input_val < 5){
-      closee();
-      digitalWrite(LED_BUILTIN, LOW);
-      door_satus = 0;
+    if ( input_val < 5){ // if it is dark
+      closee(); // close the door
+      digitalWrite(LED_BUILTIN, LOW); // turn of the LED indicator
+      door_satus = 0;// save door position as close
       
     }
   }
