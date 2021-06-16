@@ -39,6 +39,10 @@
  
 ## ⚠️ Disclaimer 
  
+ The project was built with component i already had, it is possible to find better suited part for this project.
+ 
+ Feel free to add pull request or to point out issue
+ 
  
  
  
