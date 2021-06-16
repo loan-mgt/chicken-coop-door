@@ -22,7 +22,9 @@
  <img src="https://raw.githubusercontent.com/Qypol342/chicken-coop-door/master/wiring%20diagram.png" alt="wiring diagram" width="800">
 
  
- 
+## code
+ You need to first set up your real time clock with this <a href='https://github.com/Qypol342/chicken-coop-door/blob/master/setclock.ino'>code</a>
+ Then can upload the coop door soft wear, accessible <a href='https://github.com/Qypol342/chicken-coop-door/blob/master/coop_door_code.ino'>here</a>
  
  Arduino base chicken coop door,
 function :
