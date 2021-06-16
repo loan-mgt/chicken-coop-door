@@ -31,9 +31,14 @@
 ## Power Autonomie ( Solar Panel )
   I have set it up on Solar Panel on decembre 2020, and it has been running continuously since.
  
-  I am using a 50w solar panel and an old car battery
+  I am using a 50w solar panel and an old car battery.
  
-  <a href='https://www.banggood.com/fr/10-or-20-or-30A-12-or-24V-LCD-Dual-USB-Solar-Panel-Battery-Regulator-Charge-Controller-p-1766616.html?cur_warehouse=ES&ID=554059&rmmds=search'>here</a> is the charge controller i am using, providing 12v and 5v 
+  <a href='https://www.banggood.com/fr/10-or-20-or-30A-12-or-24V-LCD-Dual-USB-Solar-Panel-Battery-Regulator-Charge-Controller-p-1766616.html?cur_warehouse=ES&ID=554059&rmmds=search'>Here</a> is the charge controller i am using, providing 12v and 5v.
+
+ 
+ 
+## ⚠️ Disclaimer 
+ 
  
  
  
