@@ -1,4 +1,18 @@
-
+/*H**********************************************************************
+* FILENAME :        coop_door_code.ino           
+*
+* DESCRIPTION :
+*       Arduino code for chicken coop door
+*
+*
+* NOTES :
+*       Download ds3231 lib here:
+*         https://github.com/rodan/ds3231
+*
+* AUTHOR :    MAEGHT Loan        START DATE :    26 Jul 20
+*
+*
+*H*/
 
 #include <Wire.h>
 #include <ds3231.h>
