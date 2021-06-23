@@ -9,8 +9,7 @@
 ## Fonctionnalité de la porte
  * 🌅 fermer au coucher du soleil -> baser sur lux
  * ⏰ ouvert à l'heure définie -> base sur l'horloge en temps réel
- * 🚪 disposition de la porte :
-   -  🟩 la corde empêche la porte de nuire à un poulet assis sur le chemin
+ * 🚪 disposition -> la corde empêche la porte de nuire à un poulet assis sur le chemin
  
  <img src="https://raw.githubusercontent.com/Qypol342/chicken-coop-door/master/coop_door_schema.png" alt="coop_door_schema" height="400">
 
