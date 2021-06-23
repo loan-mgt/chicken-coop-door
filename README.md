@@ -9,6 +9,10 @@
 ## Door Functionality
  * 🌅 close on sunset -> base on lux
  * ⏰ open at set time -> base on real time clock
+ * door layout:
+ 
+ <img src="https://raw.githubusercontent.com/Qypol342/chicken-coop-door/master/coop_door_schema.png" alt="coop_door_schema" width="800">
+ 
 
 ## Needed Materials
  * <a href='https://fr.banggood.com/DC-3V-6V-DC-1-120-Gear-Motor-TT-Motor-for-Smart-Car-Robot-DIY-p-1260117.html?rmmds=detail-left-hotproducts&cur_warehouse=CN'>Motor<a/>
