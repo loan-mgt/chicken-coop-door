@@ -9,8 +9,7 @@
 ## Door Functionality
  * 🌅 close on sunset -> base on lux
  * ⏰ open at set time -> base on real time clock
- * 🚪 door layout:
-   - 🟩 the rope prevent the door of harming a chicken that is sitting in the way
+ * 🚪 door layout -> the rope prevent the door of harming a chicken that is sitting in the way
  
  <img src="https://raw.githubusercontent.com/Qypol342/chicken-coop-door/master/coop_door_schema.png" alt="coop_door_schema" height="400">
  
