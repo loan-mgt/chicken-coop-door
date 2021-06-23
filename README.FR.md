@@ -19,6 +19,8 @@
  * <a href='https://www.banggood.com/fr/50PCS-5MM-GL5516-Light-Dependent-Resistor-Photoresistor-LDR-p-1464084.html?cur_warehouse=CN&rmmds=search'>Capteur de lumière (simple photorésistance)</a>
  * <a href='https://www.banggood.com/fr/DS3231-AT24C32-IIC-Precision-RTC-Real-Time-Clock-Memory-Module-p-1547989.html?cur_warehouse=CN&rmmds=search' >Horloge en temps réel (DS3231)</a>
  * <a href='https://www.banggood.com/fr/Wholesale-L298N-Dual-H-Bridge-Stepper-Motor-Driver-Board-p-42826.html?cur_warehouse=CN&rmmds=search'>Pont H (L298N)</a>
+ 
+ Coût total de 27 euros
 
 ## Schéma de câblage
 
