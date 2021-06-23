@@ -21,7 +21,7 @@
  * <a href='https://www.banggood.com/fr/DS3231-AT24C32-IIC-Precision-RTC-Real-Time-Clock-Memory-Module-p-1547989.html?cur_warehouse=CN&rmmds=search'>Realy Time Clock (DS3231)</a>
  * <a href='https://www.banggood.com/fr/Wholesale-L298N-Dual-H-Bridge-Stepper-Motor-Driver-Board-p-42826.html?cur_warehouse=CN&rmmds=search'>H Bridge (L298N)</a>
 
- # Total cost of 27 eur
+ ### Total cost of 27 eur
 ## Wiring Diagram
 
  <img src="https://raw.githubusercontent.com/Qypol342/chicken-coop-door/master/wiring%20diagram.png" alt="wiring diagram" width="800">
