@@ -11,7 +11,7 @@
  * ⏰ open at set time -> base on real time clock
  * door layout:
  
- <img src="https://raw.githubusercontent.com/Qypol342/chicken-coop-door/master/coop_door_schema.png" alt="coop_door_schema" width="800">
+ <img src="https://raw.githubusercontent.com/Qypol342/chicken-coop-door/master/coop_door_schema.png" alt="coop_door_schema" height="800">
  
 
 ## Needed Materials
