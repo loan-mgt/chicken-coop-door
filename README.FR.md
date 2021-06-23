@@ -9,6 +9,10 @@
 ## Fonctionnalité de la porte
  * 🌅 fermer au coucher du soleil -> baser sur lux
  * ⏰ ouvert à l'heure définie -> base sur l'horloge en temps réel
+ * disposition des portes :
+   -    la corde empêche la porte de nuire à un poulet assis sur le chemin
+ 
+ <img src="https://raw.githubusercontent.com/Qypol342/chicken-coop-door/master/coop_door_schema.png" alt="coop_door_schema" height="400">
 
 ## Matériel nécessaire
  * <a href='https://fr.banggood.com/DC-3V-6V-DC-1-120-Gear-Motor-TT-Motor-for-Smart-Car-Robot-DIY-p-1260117. html?rmmds=detail-left-hotproducts&cur_warehouse=CN'>Moteur<a/>
