@@ -15,11 +15,11 @@
  
 
 ## Needed Materials
- * <a href='https://fr.banggood.com/DC-3V-6V-DC-1-120-Gear-Motor-TT-Motor-for-Smart-Car-Robot-DIY-p-1260117.html?rmmds=detail-left-hotproducts&cur_warehouse=CN'>Motor (6v with gear reduction)<a/>
- * <a href='https://www.banggood.com/fr/Geekcreit-ATmega328P-Nano-V3-Module-Improved-Version-With-USB-Cable-Development-Board-Geekcreit-for-Arduino-products-that-work-with-official-Arduino-boards-p-933647.html?cur_warehouse=CN&rmmds=search'>Arduino Nano<a/>
- * <a href='https://www.banggood.com/fr/50PCS-5MM-GL5516-Light-Dependent-Resistor-Photoresistor-LDR-p-1464084.html?cur_warehouse=CN&rmmds=search'>Light Sensor (simple light resistor)</a>
- * <a href='https://www.banggood.com/fr/DS3231-AT24C32-IIC-Precision-RTC-Real-Time-Clock-Memory-Module-p-1547989.html?cur_warehouse=CN&rmmds=search'>Realy Time Clock (DS3231)</a>
- * <a href='https://www.banggood.com/fr/Wholesale-L298N-Dual-H-Bridge-Stepper-Motor-Driver-Board-p-42826.html?cur_warehouse=CN&rmmds=search'>H Bridge (L298N)</a>
+ * <a href='https://fr.banggood.com/DC-3V-6V-DC-1-120-Gear-Motor-TT-Motor-for-Smart-Car-Robot-DIY-p-1260117.html?p=C4290711027445201705&custlinkid=1586907'>Motor (6v with gear reduction)<a/>
+ * <a href='https://www.banggood.com/fr/Geekcreit-ATmega328P-Nano-V3-Controller-Board-Improved-Version-Module-Development-Board-p-940937.html?p=C4290711027445201705&custlinkid=1586907'>Arduino Nano<a/>
+ * <a href='https://www.banggood.com/fr/50PCS-5MM-GL5516-Light-Dependent-Resistor-Photoresistor-LDR-p-1464084.html?p=C4290711027445201705&custlinkid=1586906'>Light Sensor (simple light resistor)</a>
+ * <a href='https://www.banggood.com/fr/DS3231-AT24C32-IIC-Precision-RTC-Real-Time-Clock-Memory-Module-p-1547989.html?p=C4290711027445201705&custlinkid=1586901'>Realy Time Clock (DS3231)</a>
+ * <a href='https://www.banggood.com/fr/Wholesale-L298N-Dual-H-Bridge-Stepper-Motor-Driver-Board-p-42826.html?p=C4290711027445201705&custlinkid=1586898'>H Bridge (L298N)</a>
 
   Total cost of 27 eur
 ## Wiring Diagram
