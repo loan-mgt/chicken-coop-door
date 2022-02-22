@@ -101,12 +101,12 @@ void loop()
   Serial.println(input_val);
 
 
-  if (t.month == 4 && t.day >= 15){
+  if (t.mon == 4 && t.mday >= 15){
     winter_time = 1;
 
   
   }
-  if (t.month > 4 && t.month <= 10){
+  if (t.mon > 4 && t.mon <= 10){
     winter_time = 1;
   }else{
     winter_time = 0;
