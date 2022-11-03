@@ -24,13 +24,16 @@ int in2 = 8;
 // set speed to 200 out of possible range 0~255
 int speedd = 100;
 // duration the motor run, depend on the height of the door
-int timee = 4000; 
+int timee = 3500; 
 
 // light sensor pin
 const int LDR = A0; 
 
 // door position 0 close 1 open
 int door_satus = 0;
+
+// winter time
+int spring_time =0;
 
 // light sensor value
 int input_val;
@@ -76,7 +79,7 @@ void closee()
   // apply speed with reduction because de motor goes faster on descend
   analogWrite(enA, speedd-30);
   // waiting set time (4s)
-  delay(timee);
+  delay(timee*0.75);
 
 
 
@@ -89,20 +92,44 @@ void closee()
 }
 void loop()
 {
+
+  
+  
+  
   DS3231_get(&t);// read clock
   input_val = analogRead(LDR);// read light sensor
+
+  if (t.mon >= 4 && t.mon <= 10){
+    spring_time = 1;
+  }else{
+    spring_time = 0;
+  }
+
+
   Serial.print(door_satus);
   Serial.print("  /  ");
-  Serial.print(t.hour);
+  Serial.print(t.hour+spring_time);
+  Serial.print(":");
+  Serial.print(t.min);
+  Serial.print("  /  ");
+  Serial.print(spring_time);
+  Serial.print("  /  ");
+  Serial.print(t.mday);
+  Serial.print("/");
+  Serial.print(t.mon);
   Serial.print("  /  ");
   Serial.println(input_val);
+
+
+  
+  
   
   if (door_satus == 0) // if door is close
   {
     if ( input_val > 20){ // if there is some light
-      if (t.hour >= 9){ //if it is past 9 o'clock
+      if (t.hour + spring_time >= 9 ){ //if it is past 9 o'clock
  
-        if (t.hour < 20){ // if it is before 20 o'clock
+        if (t.hour + spring_time < 20 + (spring_time*2)){ // if it is before 20 o'clock or 23 in winter
       openn(); // then open the door
       digitalWrite(LED_BUILTIN, HIGH); //set the arduino led to ON for debuging
       door_satus = 1;}} // save that the door is open
@@ -110,7 +137,7 @@ void loop()
     }
   }
   else{
-    if ( input_val < 5){ // if it is dark
+    if ( input_val < 10 || t.hour + spring_time > 23 ){ // if it is dark or past 23
       closee(); // close the door
       digitalWrite(LED_BUILTIN, LOW); // turn of the LED indicator
       door_satus = 0;// save door position as close
