@@ -137,7 +137,7 @@ void loop()
     }
   }
   else{
-    if ( input_val < 10 || t.hour + spring_time > 23 ){ // if it is dark or past 23
+    if ( input_val < 10 || t.hour + spring_time >= 22 ){ // if it is dark or past 22
       closee(); // close the door
       digitalWrite(LED_BUILTIN, LOW); // turn of the LED indicator
       door_satus = 0;// save door position as close
