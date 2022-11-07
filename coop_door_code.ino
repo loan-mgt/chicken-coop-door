@@ -98,7 +98,8 @@ void loop()
   
   DS3231_get(&t);// read clock
   input_val = analogRead(LDR);// read light sensor
-
+  
+  // manage winter time
   if (t.mon >= 4 && t.mon <= 10){
     spring_time = 1;
   }else{
