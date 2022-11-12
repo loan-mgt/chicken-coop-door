@@ -106,7 +106,7 @@ void loop()
     spring_time = 0;
   }
 
-
+//Débug
   Serial.print(door_satus);
   Serial.print("  /  ");
   Serial.print(t.hour+spring_time);
