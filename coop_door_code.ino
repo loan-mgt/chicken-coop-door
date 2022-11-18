@@ -3,7 +3,7 @@
 *
 * DESCRIPTION :
 *       Arduino code for chicken coop door
-*
+*       Open and close at set time
 *
 * NOTES :
 *       Download ds3231 lib here:
