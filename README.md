@@ -27,13 +27,13 @@
  <img src="https://raw.githubusercontent.com/Qypol342/chicken-coop-door/master/wiring%20diagram.png" alt="wiring diagram" width="800">
 
  
-## :battery: Code
+## Code
   * You need to first set up your real time clock with this <a href='https://github.com/Qypol342/chicken-coop-door/blob/master/setclock.ino'>code</a>
   * Then can upload the coop door soft wear, accessible <a href='https://github.com/Qypol342/chicken-coop-door/blob/master/coop_door_code.ino'>here</a>
  
 
  
-## Power Autonomie ( Solar Panel )
+## :battery: Power Autonomie ( Solar Panel )
   I have set it up on Solar Panel on decembre 2020, and it has been running continuously since.
  
   I am using a 50w solar panel and an old car battery.
